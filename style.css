@@ -1,12 +1,15 @@
 * {
     margin: 0;
 }
+
 /* This is the container for the whole index. */
 .full-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vw;
 }
+
 /* This is the container for the page header. */
 .page-header {
     display: flex;
@@ -26,17 +29,21 @@
 /* This is the item container for the links in the header */
 .header-links p {
     display: inline;
+    flex-direction: row;
+    justify-content: flex-end;
     color: #E5E7EB;
     font-size: 18px;
-
     margin-right: 50px;
 }
 
 /* This is the container for the header-body section */
 .header-body {
+    display: flex;
+    flex-direction: row;
     background-color: #1F2937;
     color: #E5E7EB;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    align-items: center;
     min-height: 25vh;
 }
 
