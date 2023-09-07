@@ -24,7 +24,9 @@
 .header-logo {
     display: flex;
     float: left;
-    padding-left: 150px;
+    padding-left: 230px;
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 /* This is the item container for the links in the header */
@@ -45,7 +47,17 @@
     color: #E5E7EB;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 25vh;
+    min-height: 50vh;
+}
+
+.signup-blurb {
+    display: block;
+    width: 25rem;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: bolder;
 }
 
 /* This is the item container for the placeholder image */
