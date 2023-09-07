@@ -1,5 +1,7 @@
+
 * {
     margin: 0;
+    font-family:"Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* This is the container for the whole index. */
@@ -7,7 +9,6 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    min-width: 100vw;
 }
 
 /* This is the container for the page header. */
@@ -65,6 +66,7 @@
     font-size: 36px;
     font-style: light italic;
     color: #1F2937;
+    min-height: 25vh;
 }
 
 /* This is the container for the call to action section */
