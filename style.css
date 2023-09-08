@@ -76,6 +76,24 @@
     height: 40px;
     color: #E5E7EB;
     margin-top: 15px;
+    transition: 1s;
+}
+
+.blurb-button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    transition: 1s;
+}
+
+.blurb-button:active {
+    background-color:#1F2937;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+    transition: 0.2s;
 }
 
 .awesome {
@@ -129,6 +147,7 @@ figure {
 
 .placeholder-illustration-images {
     border: 3px solid #3882F6;
+    box-shadow: 5px 5px 15px grey;
     border-radius: 15px;
 }
 
@@ -180,6 +199,8 @@ blockquote {
     min-width: 75%;
     height: 15vh;
     background-color: #3882F6;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px grey;
     justify-content: space-around;
     align-items: center;
     color: #F9FAF8;
@@ -206,6 +227,23 @@ button.cta-button {
     font-weight: bolder;
     height: 40px;
     color: #E5E7EB;
+}
+
+.cta-button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    font-size: 24px;
+    transition: 1s;
+}
+
+.cta-button:active {
+    background-color:#1F2937;
+    box-shadow: 0 2px black;
+    transform: translateY(4px);
+    transition: 0.2s;
 }
 
 /* This is the container for the footer */
